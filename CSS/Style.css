@@ -1,0 +1,60 @@
+body {
+	font-family: "Arial";
+	background-image: url("D:/Programming-section/CSS/skills-section/Save-Fuel,Future Dreams/Images/Factories-burning-coal-background.png");
+	background-color: black;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* Header or Icon Section */
+#Icon {
+
+	background-color: white;
+}
+
+#right-ward {
+	margin-left: 1000px;
+
+	text-decoration: underline;
+	color: black;
+ /* I had to write these lines due to CSS specificity rules */
+}
+
+.More-Info-link {
+	font-family: "Times-New-Roman";
+	margin: 10px;
+	color: black;
+	font-size: 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+/*	transition: all 1s ease; */
+}
+
+/*
+.More-Info-link:hover {
+	font-family: "Times-New-Roman";
+	font-size: 20px;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+*/
+.Donation {
+	font-family: "Times-New-Roman";
+	background-color: black;
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	/*border: 1px solid black;*/
+
+	padding: 10px;
+	border-radius: 20px;
+	transition: background-color 500ms linear;
+}
+
+.Donation:hover {
+	background-color: lightgrey;
+}
+
+/* Header or Icon Section end */
+
