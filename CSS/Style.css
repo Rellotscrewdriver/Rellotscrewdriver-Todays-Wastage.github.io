@@ -3,15 +3,10 @@ body {
 	background-image: url("D:/Programming-section/CSS/skills-section/Save-Fuel,Future Dreams/Images/Factories-burning-coal-background.png");
 	background-color: black;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 1465px;
 }
 
 /* Header or Icon Section */
-#Icon {
-
-	background-color: white;
-}
-
 #right-ward {
 	margin-left: 1000px;
 
@@ -26,18 +21,9 @@ body {
 	color: black;
 	font-size: 20px;
 	text-decoration: none;
-	text-transform: uppercase;
-/*	transition: all 1s ease; */
+	text-transform: uppercase; 
 }
 
-/*
-.More-Info-link:hover {
-	font-family: "Times-New-Roman";
-	font-size: 20px;
-	text-decoration: underline;
-	text-transform: uppercase;
-}
-*/
 .Donation {
 	font-family: "Times-New-Roman";
 	background-color: black;
@@ -45,11 +31,10 @@ body {
 	font-size: 20px;
 	text-decoration: none;
 	text-transform: uppercase;
-	/*border: 1px solid black;*/
 
 	padding: 10px;
 	border-radius: 20px;
-	transition: background-color 500ms linear;
+	transition: background-color 30ms linear;
 }
 
 .Donation:hover {

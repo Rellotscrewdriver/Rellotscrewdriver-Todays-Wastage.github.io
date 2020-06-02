@@ -1,22 +1,24 @@
 .Header-quote {
-	color: black;
+	color: #212026;
 	text-align: left;
 	font-size: 50px;
 
 	margin-top: 250px;
-	margin-left: 60px;
+	margin-left: 60px;	
 }
 
 #description {
-	color: black;
+	color: #212026;
 	font-size: 20px;
 
 	margin-top: -30px;
 	margin-left: 60px;
+	margin-bottom: 50px; 	
 }
 
 #Our-Contribution {
-	background-color: black;	
+	background-color: black;
+	color: white;	
 	text-decoration: none;
 	text-transform: uppercase;
 	font-size: 15px;
@@ -24,8 +26,8 @@
 	padding: 15px;
 	padding-right: 70px; 
 
-	margin-top: -10px;
-	margin-left: 50px;
+	margin-top: 10px;
+	margin-left: 60px;
 }
 
 #Donation1 {
@@ -37,4 +39,15 @@
 
 	padding: 13px;
 	padding-right: 100px;
+
+	margin-left: 30px;
+}
+
+@keyframes quotes-in {
+	from{
+		margin-left: -1000px;
+	}
+	to{
+		margin-left: 60px;
+	}
 }
