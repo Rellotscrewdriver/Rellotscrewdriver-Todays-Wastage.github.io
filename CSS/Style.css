@@ -1,27 +1,41 @@
 body {
-	font-family: "Arial";
-	background-image: url("D:/Programming-section/CSS/skills-section/Save-Fuel,Future Dreams/Images/Factories-burning-coal-background.png");
-	background-color: black;
-	background-repeat: no-repeat;
-	background-size: 1465px;
+	 font-family: "Arial"; 
+	 background-image: url('https://www.dropbox.com/s/rjktibf2rb31acs/Factories-burning-coal-background.png?raw=1'); 
+	 background-repeat: no-repeat; 
+	 background-size: 1670px; 
+	/* Changes the font to Arial in all the texts in Desktop version
+	   Puts an Background Image, doesn't repeat the image and streches to 1670px. 
+	*/
 }
 
+header {}
+
 /* Header or Icon Section */
+
 #right-ward {
 	margin-left: 1000px;
+	/* Pushes all the images to top right corner of the screen */
 
 	text-decoration: underline;
 	color: black;
- /* I had to write these lines due to CSS specificity rules */
+    /* I had to write these lines here due to CSS specificity rules, otherwise it won't style the elements*/
 }
 
 .More-Info-link {
 	font-family: "Times-New-Roman";
-	margin: 10px;
 	color: black;
 	font-size: 20px;
 	text-decoration: none;
 	text-transform: uppercase; 
+	/* Changes the font to Times-new-roman
+	   colors the text to black 
+	   increases the text size to 20px
+	   sets the underlining as none and transforms to text to uppercases
+	*/
+
+	margin-left: 10px;
+	margin-right: 10px;
+	/*Used for creating gaps on left and right sides*/
 }
 
 .Donation {
@@ -31,10 +45,17 @@ body {
 	font-size: 20px;
 	text-decoration: none;
 	text-transform: uppercase;
+	/* Changes the font to Times-new-roman
+	   colors the background to black and text to white 
+	   increases the text size to 20px
+	   sets the underlining as none and transforms to text to uppercases
+	*/
 
-	padding: 10px;
+	padding: 10px; 
 	border-radius: 20px;
-	transition: background-color 30ms linear;
+	/* It creates the circular button around text*/
+	transition: padding, border-radius, background-color 300ms linear;
+	/* Animates the button's background color to lightgrey when hovering within 300ms*/
 }
 
 .Donation:hover {

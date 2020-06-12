@@ -1,0 +1,50 @@
+/* This file only used in moblie version */
+
+.body-m {
+	font-family: "Arial";
+	background-repeat: no-repeat;
+	background-size: 200px; /* This doesn't work for some reason, anyone explain */
+	/* Changes the font to Arial in all the texts in moblie version
+	   Puts an Background Image(in HTML file) and doesn't repeat the image. 
+	*/
+}
+
+#Icon-m {
+	margin-left: 900px;
+	/* Position coordinates of the icon on top right corner */
+}
+
+.Header-quote-m {
+	color: #212026;
+	text-align: center;
+	font-size: 50px;
+	/* Colors the image to lightgrey 
+	   aligns the text to center
+	   increases the text size to 50px
+	*/
+
+	/* Position coordinates of quote*/
+	margin-top: 510px;
+	margin-left: 60px;
+	/* end position coordinates */
+}
+
+#Donation1-m {
+	background-color: white;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	border: 4px groove black;
+	/* Colors the background to white and text to black 
+	   Aligns the text to center
+	   underlining is set to none and transforms the text to uppercase
+	   Borders the padding and content to black groove 4px
+	*/
+	
+	/* Position coordinates of link button*/
+	padding: 13px;
+	padding-right: 400px;
+	margin-left: 260px;
+	/* end position coordinates */
+}
